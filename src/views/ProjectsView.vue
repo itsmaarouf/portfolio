@@ -1,7 +1,9 @@
 <template>
-  <div class="text-center">Projects</div>
+  <div>
+    <div><TheHeadline title="Projects" /></div>
+  </div>
 </template>
 
-<script setup></script>
-
-<style lang="scss" scoped></style>
+<script setup>
+import TheHeadline from "../components/TheHeadline.vue";
+</script>
