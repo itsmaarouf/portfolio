@@ -10,6 +10,9 @@
     @apply inline-block text-teal-800 transition-transform duration-300 ease-out transform-gpu hover:scale-125 hover:opacity-85;
   }
   body {
-    @apply bg-gray-100;
+    @apply text-gray-800;
+  }
+  .textStyle {
+    @apply pt-2 font-light leading-8 tracking-wide text-justify;
   }
 }

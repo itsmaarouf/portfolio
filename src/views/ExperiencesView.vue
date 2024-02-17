@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container flex flex-col flex-1 p-0 mx-auto">
     <div><TheHeadline title="experiences" /></div>
   </div>
 </template>

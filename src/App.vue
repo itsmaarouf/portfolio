@@ -4,5 +4,6 @@ import HeaderView from "@/components/HeaderView.vue";
 
 <template>
   <HeaderView />
+  <div class="bg-orange-500"></div>
   <router-view />
 </template>
