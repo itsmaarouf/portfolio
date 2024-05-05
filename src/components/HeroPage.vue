@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center mt-6 md:flex-row">
+  <div class="flex flex-col items-center mx-5 mt-6 md:flex-row">
     <div class="md:flex-1">
       <h1
         class="text-3xl tracking-[4px] sm:text-4xl md:text-5xl lg:text-6xl capitalize p-5 font-bold"
@@ -23,7 +23,13 @@
       </p>
       <p class="textStyle">Let's innovate, create, and grow together! 👨‍💻✨🔧</p>
     </div>
-    <div class="flex items-center justify-center w-1/3 mx-auto">some text</div>
+    <div class="flex items-center justify-center w-1/3 mx-auto">
+      <img
+        src="/image/itsmaarouf-noBg.png"
+        alt="it's me ;)"
+        class="scale-x-[-1] md:block hidden"
+      />
+    </div>
   </div>
 </template>
 
