@@ -7,12 +7,15 @@ export const useLibrariesStore = defineStore('Libraries', () => {
         {
             name: "VueJS",
             status: "available",
+            img: "/image/CSS.png",
         }, {
             name: "Vuetify",
             status: "available",
+            img: "/image/CSS.png",
         }, {
             name: "Tailwindcss",
             status: "available",
+            img: "/image/CSS.png",
         }
     ])
 

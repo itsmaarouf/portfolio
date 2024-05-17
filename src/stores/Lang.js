@@ -7,9 +7,11 @@ export const useLangsStore = defineStore('Langs', () => {
         {
             name: "JavaScript",
             status: "available",
+            img: "/image/CSS.png",
         }, {
             name: "Java",
             status: "available",
+            img: "/image/CSS.png",
         }
     ])
 

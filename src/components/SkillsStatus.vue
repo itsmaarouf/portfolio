@@ -1,25 +1,24 @@
 <template>
-  <div class="flex h-10">
-    <a
+  <div>
+    <div class="h-5 my-8 text-2xl text-left border-b-2 border-gray-200">
+      <span class="px-5 ml-5 text-gray-400 bg-white"
+        >Programming Languages</span
+      >
+    </div>
+    <div
       v-for="skill in Skills"
       :key="skill"
-      href="#"
-      class="flex-row items-center w-64 mx-5 bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100"
+      class="inline-flex flex-row w-[350px] mx-6 my-4 bg-white border shadow-sm rounded-xl"
     >
-      <img
-        class="object-cover w-full h-10 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-        :src="skill.img"
-        alt=""
-      />
-      <div class="flex flex-col justify-between p-4 leading-normal">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
-          {{ skill.name }}
-        </h5>
-        <p class="mb-3 font-normal text-gray-700">
+      <div class="px-4 py-3 bg-gray-100 border-b rounded-t-xl md:py-4 md:px-5">
+        <h3 class="mt-1 text-lg font-bold text-gray-800">{{ skill.name }}</h3>
+      </div>
+      <div class="p-4 md:p-5">
+        <p class="mt-2 text-gray-500">
           {{ skill.status }}
         </p>
       </div>
-    </a>
+    </div>
   </div>
 </template>
 

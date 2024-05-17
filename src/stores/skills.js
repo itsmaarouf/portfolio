@@ -7,15 +7,15 @@ export const useSkillsStore = defineStore('skills', () => {
         {
             name: "CSS",
             status: "available",
-            img: "/public/image/CSS.png",
+            img: "/image/CSS.png",
         }, {
             name: "HTML",
             status: "available",
-            img: "/public/image/HTML.png",
+            img: "/image/HTML.png",
         }, {
             name: "Scss",
             status: "available",
-            img: "/public/image/SCSS.png",
+            img: "/image/SCSS.png",
         }
     ])
 
