@@ -1,9 +1,7 @@
 <template>
   <div>
     <div class="h-5 my-8 text-2xl text-left border-b-2 border-gray-200">
-      <span class="px-5 ml-5 text-gray-400 bg-white"
-        >Programming Languages</span
-      >
+      <span class="px-5 ml-5 text-gray-400 bg-white"> {{ skillsGroup }} </span>
     </div>
     <div
       v-for="skill in Skills"
@@ -23,9 +21,9 @@
 </template>
 
 <script setup>
-import { useSkillsStore } from "../stores/skills";
-
-const { Skills } = useSkillsStore();
+const props = defineProps(["skillsGroup", "SkillsName"]);
+const Skills = props.SkillsName;
+console.log(props.skillsGroup);
 </script>
 
 <style lang="scss" scoped></style>
