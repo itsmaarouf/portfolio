@@ -2,8 +2,8 @@
   <div class="container flex flex-col flex-1 p-0 mx-auto">
     <TheHeadline title="Skill" />
     <SkillsStatus skillsGroup="Markup &amp Style" :SkillsName="Skills" />
-    <SkillsStatus skillsGroup="Programming Languages " :SkillsName="Langs" />
     <SkillsStatus skillsGroup="Libraries" :SkillsName="Libraries" />
+    <SkillsStatus skillsGroup="Programming Languages " :SkillsName="Langs" />
   </div>
 </template>
 

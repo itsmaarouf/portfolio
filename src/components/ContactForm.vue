@@ -56,10 +56,12 @@ const message = ref("");
 
 const handleSubmit = (event) => {
   event.preventDefault();
-  alert("Your message has been sent! Thank you for contacting us.");
   name.value = "";
   email.value = "";
   message.value = "";
+  setTimeout(() => {
+    alert("Your message has been sent! Thank you for contacting us.");
+  }, 500);
 };
 </script>
 
